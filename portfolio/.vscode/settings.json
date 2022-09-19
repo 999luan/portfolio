@@ -1,0 +1,45 @@
+{
+  "git.ignoreLimitWarning": true,
+  "cSpell.words": [
+    "adaptabilidade",
+    "Audiomack",
+    "basica",
+    "basico",
+    "Conhecimento",
+    "conteudo",
+    "Criador",
+    "criar",
+    "Crio",
+    "Davinci",
+    "enquanto",
+    "estudos",
+    "existente",
+    "fonte",
+    "Gestão",
+    "idéias",
+    "Ilustrator",
+    "infinita",
+    "inicial",
+    "Iskill",
+    "limpas",
+    "nivel",
+    "paginas",
+    "Photoshop",
+    "planejo",
+    "Posso",
+    "qualquer",
+    "responsivas",
+    "situação",
+    "usando",
+    "utilizando"
+  ],
+  "cSpell.customDictionaries": {
+    "custom-dictionary-workspace": {
+      "name": "custom-dictionary-workspace",
+      "path": "${workspaceFolder:portfolio}/.cspell/custom-dictionary-workspace.txt",
+      "addWords": true,
+      "scope": "workspace"
+    }
+  },
+  "cSpell.ignoreWords": ["simulando"]
+}
