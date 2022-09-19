@@ -65,6 +65,7 @@ reformar
 rounde
 serei
 sociedade
+tailwindcss
 tecnologia
 tecnologias
 textos

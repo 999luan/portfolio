@@ -67,6 +67,8 @@ export const getServerSideProps = async (
     },
   };
 };
+
+//exemplo
 // export const getStaticProps = async (context: GetStaticPropsContext) => {
 //   console.log("server", services);
 //   const res = await fetch("http://localhost:3000/api/services");
