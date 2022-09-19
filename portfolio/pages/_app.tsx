@@ -3,7 +3,6 @@ import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 import { AnimatePresence } from "framer-motion";
 import { ThemeProvider } from "next-themes";
-import { Router } from "next/router";
 
 function MyApp({ Component, pageProps, router }) {
   return (
@@ -14,9 +13,9 @@ function MyApp({ Component, pageProps, router }) {
         </div>
         <div className="flex flex-col col-span-12 overflow-hidden bg-white dark:bg-dark-500 lg:col-span-9 rounded-2xl shadow-custom-light dark:shadow-custom-dark">
           <Navbar />
-          <AnimatePresence wait>
-            <Component {...pageProps} key={router.route} />
-          </AnimatePresence>
+          {/* <AnimatePresence wait> */}
+          <Component {...pageProps} />
+          {/* {/* </AnimatePresence> */}
         </div>
       </div>
     </ThemeProvider>

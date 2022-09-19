@@ -7,7 +7,7 @@ import { CgGames } from "react-icons/cg";
 import { SiAudiomack } from "react-icons/si";
 import { CgWebsite } from "react-icons/cg";
 
-import { IService, Iskill } from "./type";
+import { IProject, IService, Iskill } from "./type";
 
 export const services: IService[] = [
   {
@@ -95,7 +95,7 @@ export const languages: Iskill[] = [
   },
 ];
 
-export const tools: Skill[] = [
+export const tools: Iskill[] = [
   {
     Icon: BsCircleFill,
     name: "Davinci",
@@ -163,7 +163,7 @@ export const projects: IProject[] = [
     image_path: "/images/iddev.png",
     deployed_url: "https://react-entrega-s2-kenzie-hub-999luan.vercel.app/",
     github_url: "https://github.com/999luan/idDevl",
-    category: ["React", "JavaScript"],
+    category: ["React", "Javascript"],
     key_techs: ["Javascript", "React", "Axios"],
   },
   {
@@ -183,7 +183,7 @@ export const projects: IProject[] = [
     image_path: "/images/citadel.png",
     deployed_url: "https://rickmortypage2.vercel.app/",
     github_url: "https://github.com/999luan/idDevl",
-    category: ["React", "JavaScript"],
+    category: ["React", "Javascript"],
     key_techs: ["Javascript", "React"],
   },
   {

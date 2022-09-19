@@ -42,6 +42,7 @@ const index = ({ endpoint }) => {
         >
           {services.map((service) => (
             <motion.div
+              key={service.title}
               variants={fadeinUp}
               className="bg-gray-200 rounded-lg dark:bg-dark-200 lg:col-span-1"
             >
