@@ -2,6 +2,7 @@ import Bar from "../components/Bar";
 import { languages, tools } from "../data";
 import { motion } from "framer-motion";
 import { fadeinUp, routeAnimation } from "../animations";
+import Head from "next/head";
 const resume = () => {
   return (
     <motion.div
@@ -11,6 +12,9 @@ const resume = () => {
       animate="animate"
       exit="exit"
     >
+      <Head>
+        <title>Portfolio | Luan Silva</title>
+      </Head>
       <div className="grid gap-6 md:grid-cols-1">
         <motion.div variants={fadeinUp} initial="initial" animate="animate">
           <h5 className="my-3 text-2xl font-bold">Formação</h5>

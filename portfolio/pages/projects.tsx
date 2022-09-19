@@ -7,6 +7,7 @@ import { Category } from "../type";
 import { deployed_url } from "../type";
 import { motion } from "framer-motion";
 import { fadeinUp, routeAnimation, stagger } from "../animations";
+import Head from "next/head";
 
 const Projects = () => {
   const [projects, setProjects] = useState(projectData);
@@ -35,6 +36,9 @@ const Projects = () => {
       animate="animate"
       exit="exit"
     >
+      <Head>
+        <title>Portfolio | Luan Silva</title>
+      </Head>
       <ProjectNavbar
         handlerFilterCategory={handlerFilterCategory}
         active={active}

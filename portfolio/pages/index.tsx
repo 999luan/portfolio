@@ -8,6 +8,8 @@ import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
 import { motion } from "framer-motion";
 
+import Head from "next/head";
+
 const index = ({ endpoint }) => {
   return (
     <motion.div
@@ -17,6 +19,9 @@ const index = ({ endpoint }) => {
       animate="animate"
       exit="exit"
     >
+      <Head>
+        <title>Portfolio | Luan Silva</title>
+      </Head>
       <h5 className="my-3 font-medium">
         Desenvolvedor, artista e filósofo, dedicando-se a reformar, criar e
         lapidar as estruturas de acessibilidade presentes na sociedade. 3 anos

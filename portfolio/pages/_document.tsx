@@ -10,6 +10,7 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Changa&family=Kaushan+Script&display=swap"
           rel="stylesheet"
         />
+        <meta name="author" content="Luan C. Silva"></meta>
       </Head>
       <body className="bg-gradient-to-r from-blue-600 to-purple-900 dark:from-dark-500 dark:to-dark-700 dark:text-white">
         <Main />

@@ -28,7 +28,7 @@ const Sidebar = () => {
         Front End Developer
       </p>
       <a
-        href="/assets/cv.pdf"
+        href="/assets/meucv.pdf"
         download="Curriculo Luan.pdf"
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
       >
