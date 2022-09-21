@@ -19,26 +19,26 @@ const resume = () => {
         <motion.div variants={fadeinUp} initial="initial" animate="animate">
           <h5 className="my-3 text-2xl font-bold">Formação</h5>
           <div>
-            <h5 className="my-2 font-bold text-x1">Front-end Developer</h5>
+            <h5 className="my-2 font-bold text-x1">Front-End Developer</h5>
             <p className="font-semibold">
-              Kenzie Academy Brasil(nov/21-jul/22)
+              Kenzie Academy Brasil | (Nov/21-Jul/22)
             </p>
             <p className="my-3">
               Curso de 1.000 horas de Desenvolvimento Web que abrange a
-              tecnologia Front End, além de soft skills necessárias para o
+              tecnologia Front-End, além de soft skills necessárias para o
               mercado de trabalho. Entre as linguagens e tecnologias aprendidas,
-              estão HTML5, CSS3, JavaScript (ES6+),e React,
+              estão HTML5, CSS3, JavaScript (ES6+), TypeScript e React.
             </p>
           </div>
           <div>
-            <h5 className="my-2 font-bold text-x1">Scrum Master/ Agilista</h5>
-            <p className="font-semibold">Biohacking Agile(jun/21-jul/21)</p>
-            <p>Curso de 60 horas de capacitação em metodologias ágeis.</p>
+            <h5 className="my-2 font-bold text-x1">Scrum Master / Agilista</h5>
+            <p className="font-semibold">Biohacking Agile | (Jun/21-Jul/21)</p>
+            <p>Curso de 60 horas com foco na capacitação em Metodologias Ágeis.</p>
           </div>
           <div>
-            <h5 className="my-2 font-bold text-x1">Filosofo</h5>
-            <p className="font-semibold">Unicesumar(2020-2025)</p>
-            <p>Formação universitaria em filosofia</p>
+            <h5 className="my-2 font-bold text-x1">Filósofo</h5>
+            <p className="font-semibold">UniCesumar | (2020-2025)</p>
+            <p>Formação universitária em Filosofia.</p>
           </div>
         </motion.div>
       </div>
