@@ -12,47 +12,47 @@ import { IProject, IService, Iskill } from "./type";
 export const services: IService[] = [
   {
     Icon: CgWebsite,
-    title: "Frontend Dev",
+    title: "Desenvolvedor Front-End",
     about:
-      "Posso criar paginas responsivas, e limpas usando <b> HTML</b><b>CSS</b>,<b>Javascript</b>, e <b>React.js</b>. ",
+      "Posso criar páginas responsivas e limpas usando <b> HTML</b>, <b>CSS</b>, <b>JavaScript</b> e <b>React.js</b>. ",
   },
 
   {
     Icon: AiOutlineAntDesign,
-    title: "UI/UX designer",
+    title: "UI/UX Designer",
     about: "Crio e planejo interfaces utilizando <b>Figma</b>. ",
   },
 
   {
     Icon: FaServer,
-    title: "Backend  Dev",
-    about: "Conhecimento basico de banco de dados, estudos em nivel inicial.",
+    title: "Desenvolvedor Back-End",
+    about: "Conhecimento básico em banco de dados. Estudos em nível inicial.",
   },
   {
     Icon: BsLightbulb,
-    title: "Criador de conteudo",
-    about: "Eu sou uma fonte infinita de idéias",
+    title: "Criador de conteúdo",
+    about: "Eu sou uma fonte infinita de ideias.",
   },
   {
     Icon: AiOutlineApi,
     title: "API Development",
-    about: "Posso criar uma Api basica usando <b>Node API</b>.",
+    about: "Posso criar uma API básica usando <b>Node API</b>.",
   },
   {
     Icon: CgGames,
-    title: "Game Dev",
-    about: "Um hobby? por enquanto!",
+    title: "Game Developer",
+    about: "Um hobby? Por enquanto!",
   },
   {
     Icon: SiAudiomack,
     title: "AudioVisual",
     about:
-      "Illustrator, Davinci, e qualquer software de audio existente no mercado!",
+      "Illustrator, DaVinci e qualquer software de áudio existente no mercado.",
   },
   {
     Icon: RiComputerLine,
     title: "Scrum Master",
-    about: "Gestão de squad, adaptabilidade a qualquer situação.",
+    about: "Gestão de squad e adaptabilidade a qualquer situação.",
   },
 ];
 
@@ -69,7 +69,7 @@ export const languages: Iskill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "Java Script",
+    name: "JavaScript",
     level: "60",
   },
 
@@ -80,7 +80,7 @@ export const languages: Iskill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "Typescript",
+    name: "TypeScript",
     level: "40",
   },
   {
@@ -90,7 +90,7 @@ export const languages: Iskill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "GDscript",
+    name: "GDScript",
     level: "80",
   },
 ];
@@ -98,7 +98,7 @@ export const languages: Iskill[] = [
 export const tools: Iskill[] = [
   {
     Icon: BsCircleFill,
-    name: "Davinci",
+    name: "DaVinci",
     level: "80",
   },
   {
@@ -135,20 +135,31 @@ export const tools: Iskill[] = [
 
 export const projects: IProject[] = [
   {
-    id: 1,
+    id: 7,
+    name: "Ferramenta de Desenho",
+    description:
+      "Ferramenta de desenho inspirada no Paint, criada utilizando HTML, CSS e JavaScript.",
+    image_path: "/images/desenhoimg.png",
+    deployed_url: "https://999luan.github.io/paint/",
+    github_url: "https://github.com/999luan/paint/",
+    category: ["Javascript"],
+    key_techs: ["JavaScript", "CSS", "HTML"],
+  },
+  {
+    id: 6,
     name: "RogueLite Novel",
-    description: "RPG 2D roguelike feito em GDscript",
+    description: "RPG 2D roguelike feito em GDScript.",
     image_path: "/images/roguelitenovel.png",
     deployed_url: "nao",
     github_url: "nao",
     category: ["Godot"],
-    key_techs: ["GdScript"],
+    key_techs: ["GDScript"],
   },
   {
-    id: 2,
+    id: 5,
     name: "Gerador Procedual",
     description:
-      "Gera procedualmente configurações de terreno com condições e elementos totalmente customizaveis.",
+      "Gera procedualmente configurações de terreno com condições e elementos totalmente customizáveis, feito em C#.",
     image_path: "/images/gerador.png",
     deployed_url: "nao",
     github_url: "nao",
@@ -156,30 +167,30 @@ export const projects: IProject[] = [
     key_techs: ["Unity", "C#"],
   },
   {
-    id: 3,
-    name: "sistema de login + tasklist",
+    id: 4,
+    name: "Sistema de login + Tasklist",
     description:
-      "Lista de tarefas com sistema de cadastro, Login, formularios e requisições utilizando Axios.",
+      "Lista de tarefas com sistema de cadastro, login, formulários e requisições utilizando Axios.",
     image_path: "/images/iddev.png",
     deployed_url: "https://react-entrega-s2-kenzie-hub-999luan.vercel.app/",
     github_url: "https://github.com/999luan/idDevl",
     category: ["React", "Javascript"],
-    key_techs: ["Javascript", "React", "Axios"],
+    key_techs: ["JavaScript", "React", "Axios"],
   },
   {
     id: 3,
-    name: "Portfolio responsivo",
-    description: "Portfolio responsivo, feito utilizando react",
+    name: "Portfólio responsivo",
+    description: "Portfólio responsivo, feito utilizando React.",
     image_path: "/images/port.png",
     deployed_url: "https://portfolio-reiluan.vercel.app/",
     github_url: "https://github.com/999luan/react-portifolio",
     category: ["Javascript", "React"],
-    key_techs: ["Javascript", "React", "ReactDom"],
+    key_techs: ["JavaScript", "React", "ReactDom"],
   },
   {
-    id: 4,
+    id: 2,
     name: "Citadel Archives",
-    description: "Projeto basico que busca dados direto em API publica",
+    description: "Projeto básico que busca dados direto em API pública.",
     image_path: "/images/citadel.png",
     deployed_url: "https://rickmortypage2.vercel.app/",
     github_url: "https://github.com/999luan/idDevl",
@@ -187,13 +198,13 @@ export const projects: IProject[] = [
     key_techs: ["Javascript", "React"],
   },
   {
-    id: 5,
-    name: "Formulario YUP",
-    description: "Formulario de cadastro utilizando YUP",
+    id: 1,
+    name: "Formulário YUP",
+    description: "Formulário de cadastro utilizando YUP.",
     image_path: "/images/form.png",
     deployed_url: "https://form-reiluan.vercel.app/",
     github_url: "https://github.com/999luan/YupForm",
     category: ["React"],
-    key_techs: ["Javascript", "React", "YUPform"],
+    key_techs: ["JavaScript", "React", "Form YUP"],
   },
 ];
