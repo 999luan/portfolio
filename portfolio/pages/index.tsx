@@ -23,14 +23,13 @@ const index = ({ endpoint }) => {
         <title>Portfolio | Luan Silva</title>
       </Head>
       <h5 className="my-3 font-medium">
-        Desenvolvedor, artista e filósofo, dedicando-se a reformar, criar e
-        lapidar as estruturas de acessibilidade presentes na sociedade. 3 anos
-        trabalhando com áudio, realizando trabalho social ao produzindo e
-        capacitando gratuitamente artistas periféricos. Dediquei-me ao
-        entendimento humano como filósofo, apliquei como agilista, e como Dev
-        finalmente começo a tirar do papel centenas de textos e ideias
-        desenvolvidos ao longo dos anos. Busco ser a mudança que espero no
-        mundo, e se depender de meus esforços, eu serei.
+        Desenvolvedor, artista e filósofo, dedicando-se a reformar, criar e lapidar as estruturas de acessibilidade presentes na sociedade.
+
+3 anos atuando como engenheiro de áudio e realizando trabalhos sociais ao produzir gratuitamente artistas periféricos.
+
+Dediquei-me ao entendimento humano como filósofo, apliquei como agilista, e como desenvolvedor finalmente começo a tirar do papel centenas de textos e ideias desenvolvidos ao longo dos anos.
+
+Busco ser a mudança que espero no mundo, e se depender de meus esforços, eu serei.
       </h5>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-500"
