@@ -135,6 +135,17 @@ export const tools: Iskill[] = [
 
 export const projects: IProject[] = [
   {
+    id: 8,
+    name: "Movimentação/Colisão",
+    description:
+      "Sistema de movimentação e colisão em C#",
+    image_path: "/images/portfoliomov.gif",
+    deployed_url: "nao",
+    github_url: "nao",
+    category: ["Unity"],
+    key_techs: ["Unity", "C#"],
+  },
+  {
     id: 7,
     name: "Ferramenta de Desenho",
     description:
@@ -142,7 +153,7 @@ export const projects: IProject[] = [
     image_path: "/images/desenhoimg.png",
     deployed_url: "https://999luan.github.io/paint/",
     github_url: "https://github.com/999luan/paint/",
-    category: ["Javascript"],
+    category: ["JavaScript"],
     key_techs: ["JavaScript", "CSS", "HTML"],
   },
   {
@@ -174,7 +185,7 @@ export const projects: IProject[] = [
     image_path: "/images/iddev.png",
     deployed_url: "https://react-entrega-s2-kenzie-hub-999luan.vercel.app/",
     github_url: "https://github.com/999luan/idDevl",
-    category: ["React", "Javascript"],
+    category: ["React", "JavaScript"],
     key_techs: ["JavaScript", "React", "Axios"],
   },
   {
@@ -184,7 +195,7 @@ export const projects: IProject[] = [
     image_path: "/images/port.png",
     deployed_url: "https://portfolio-reiluan.vercel.app/",
     github_url: "https://github.com/999luan/react-portifolio",
-    category: ["Javascript", "React"],
+    category: ["JavaScript", "React"],
     key_techs: ["JavaScript", "React", "ReactDom"],
   },
   {
@@ -194,7 +205,7 @@ export const projects: IProject[] = [
     image_path: "/images/citadel.png",
     deployed_url: "https://rickmortypage2.vercel.app/",
     github_url: "https://github.com/999luan/idDevl",
-    category: ["React", "Javascript"],
+    category: ["React", "JavaScript"],
     key_techs: ["Javascript", "React"],
   },
   {

@@ -23,7 +23,7 @@ const ProjectNavbar: FunctionComponent<{
     <div className="flex px-3 py-3 space-x-3 overflow-x-auto list-none">
       <NavItem value="Todos" {...props} />
       <NavItem value="React" {...props} />
-      <NavItem value="Javascript" {...props} />
+      <NavItem value="JavaScript" {...props} />
       <NavItem value="Unity" {...props} />
       <NavItem value="Godot" {...props} />
       <NavItem value="Node" {...props} />

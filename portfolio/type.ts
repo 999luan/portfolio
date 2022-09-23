@@ -25,7 +25,7 @@ export interface IProject {
 
 export type Category =
   | "React"
-  | "Javascript"
+  | "JavaScript"
   | "Node"
   | "Unity"
   | "Godot"
