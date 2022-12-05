@@ -135,10 +135,20 @@ export const tools: Iskill[] = [
 
 export const projects: IProject[] = [
   {
+    id: 9,
+    name: "Loja Virtual completa",
+    description:
+      "completamente funcional, backend de facil atualização, responsivo e integrado em plataforma de pagamento",
+    image_path: "/images/techwear.png",
+    deployed_url: "https://nextjsshop-red.vercel.app/",
+    github_url: "https://github.com/999luan/shopnextjs",
+    category: ["JavaScript", "React", "NextJs"],
+    key_techs: ["NextJs", "React", "TypeScript", "Sanity", "Firebase"],
+  },
+  {
     id: 8,
     name: "Movimentação/Colisão",
-    description:
-      "Sistema de movimentação e colisão em C#",
+    description: "Sistema de movimentação e colisão em C#",
     image_path: "/images/portfoliomov.gif",
     deployed_url: "nao",
     github_url: "nao",
@@ -213,8 +223,8 @@ export const projects: IProject[] = [
     name: "Formulário YUP",
     description: "Formulário de cadastro utilizando YUP.",
     image_path: "/images/form.png",
-    deployed_url: "https://form-reiluan.vercel.app/",
-    github_url: "https://github.com/999luan/YupForm",
+    deployed_url: "nao",
+    github_url: "nao",
     category: ["React"],
     key_techs: ["JavaScript", "React", "Form YUP"],
   },

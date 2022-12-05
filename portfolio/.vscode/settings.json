@@ -41,5 +41,8 @@
       "scope": "workspace"
     }
   },
-  "cSpell.ignoreWords": ["simulando"]
+  "cSpell.ignoreWords": [
+    "simulando"
+  ],
+  "diffEditor.wordWrap": "on"
 }
