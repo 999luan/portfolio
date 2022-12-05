@@ -12,7 +12,7 @@ export default function Document() {
         />
         <meta name="author" content="Luan C. Silva"></meta>
       </Head>
-      <body className="bg-gradient-to-r from-blue-600 to-purple-900 dark:from-dark-500 dark:to-dark-700 dark:text-white">
+      <body className="bg-gradient-to-r from-purple-900 to-green-300 dark:from-dark-500 dark:to-dark-700 dark:text-white">
         <Main />
         <NextScript />
       </body>
